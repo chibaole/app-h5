@@ -1,0 +1,248 @@
+html[data-dpr="2"] {
+    font-size: 32px;
+}
+html[data-dpr="2.5"] {
+    font-size: 40px;
+}
+html[data-dpr="2.75"] {
+    font-size: 44px;
+}
+html[data-dpr="3"] {
+    font-size: 48px;
+}
+html[data-dpr="3.5"] {
+    font-size: 48px;
+}
+html[data-dpr="4"] {
+    font-size: 64px;
+}
+/*----匹配多屏设备*/
+
+.header{
+    /*border:1px solid #ccc;*/
+    margin: 0.42rem auto;
+    /*padding: 0.5rem auto 0 0.5rem;*/
+
+    position: relative;
+
+}
+.author_avatar {
+    /*border:1px solid #ccc;*/
+    display:inline-block;
+    margin-left:0.42rem;
+}
+.author_avatar img{
+    width: 0.96rem;height: 0.96rem;
+    border-radius: 50%;
+
+
+}
+.author_info{
+    /*border:1px solid #000;*/
+
+    display: inline-block;
+
+    height: 0.96rem;
+
+    margin-left: 0.214rem;
+    position: absolute;
+    top:0.18rem;
+
+
+
+}
+.name{
+
+    font-size: 0.373rem;
+    font-weight: 400;
+    color:#6eaabb;
+
+
+}
+
+.date_zan{
+
+    color:#acb5c2;
+    font-size: 0.266rem;
+
+}
+.dianzan{
+    background: #f7f7f7;
+    height:1rem;width: 1.5rem;
+    display: inline-block;
+    /*border:1px solid #000;*/
+    position: absolute;
+    right: 1.2rem;
+}
+.header_num{
+
+    font-size: 0.32rem;
+    display: inline-block;
+    margin-left: 0.1rem;
+    position: absolute;
+    top:0.25rem;
+    right: 0.2rem;
+}
+.header_sanjiao{
+    display: inline-block;
+    margin: 0rem 0.6rem  0.51rem 0.2rem;
+    width: 0;
+    height: 0;
+    border-width: 0.176rem;
+    border-style: solid;
+    border-color: transparent transparent #4a4a4a transparent;
+}
+/*-----*/
+.content{
+    margin-top: 0.613rem;
+
+}
+.top_text{
+    /*border:1px solid #333334;*/
+
+}
+.top_text p{
+    font-size: 0.3782rem;
+    line-height: 0.532rem;
+    color:#313131;
+    padding: 0 0.4266rem;
+}
+.line{
+    width: 1.25rem;height: 1px;
+    background: #e9e9e9;
+    margin: 0.8512rem auto;
+
+}
+/*---*/
+.item{
+    font-size: 0.37332rem;
+
+}
+.item img{
+    width: 100%;
+    height: 5.6rem;
+    background: #f7f7f7;
+}
+.item span{
+    display: inline-block;
+    background: #f7f7f7;
+    border:3px;
+    margin-top: 0.37332rem;
+    margin-left: 0.64rem;
+}
+.item_text{
+    padding: 0 0.4266rem;
+}
+.dish_name{
+
+    color: #e0502c;
+}
+.global{
+    color: #5aacbd;
+    font-size: 0.37332rem;
+    margin-bottom: 0.4266rem;
+}
+
+/*--*/
+.point{
+    /*border: 1px solid black;*/
+    position: relative;
+    margin-bottom: 2px;
+}
+.add{
+    background: #e9e9e9;
+    height: 0.8533rem;width: 2.132rem;
+    border-radius: 5px;
+    margin-left: 0.4266rem;
+    position: relative;
+    border: inherit;
+    display: inline-block;
+}
+.sanjiao{
+    display: inline-block;
+    margin: 0rem 0.4266rem 0.5266rem;
+    width: 0;
+    height: 0;
+    border-width: 0.176rem;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.num{
+
+    /*border:1px solid #ccc;*/
+    font-size: 0.32rem;
+    display: inline-block;
+    position: absolute;
+    top:0.25rem;
+    right: 0.54rem;
+}
+.add-username{
+    display: inline-block;
+    font-size: 0.32rem;
+    /*border:1px solid #d4d4d4;*/
+    color:#b5b5b5;
+    margin-left: 0.08532rem;
+    position: absolute;
+    bottom:0.5546rem;
+}
+.restaurant{
+    width: 100%;
+    height: 2.56rem;
+    border-top:1px solid blueviolet;
+    position: relative;
+    padding-left: 0.426rem;
+    font-size: 0.372rem;
+    margin-bottom: 0.1066rem;
+
+}
+.restaurant img{
+    width: 1.7rem ;height: 1.7rem;
+    display: inline-block;
+    margin-top: 0.5332rem;
+}
+.res_name{
+    display: inline-block;
+    /*border:1px solid #333334;*/
+
+    position: absolute;
+    top: 0.62rem;
+    left:2.218rem;
+}
+.restaurant p{
+    display: inline-block;
+    position: absolute;
+    top:1.224rem;
+    margin-left: 0.0852rem;
+}
+.restaurant span{
+    display: inline-block;
+    font-size: 0.32rem;
+    color: #b5b5b5;
+}
+
+.juli{
+    /*display: inline-block;*/
+    /*border:1px solid #d3d3d3;*/
+    width: 2.132rem;height: 0.852rem;
+    position: relative;
+    top: -0.4266rem;
+    left:4.6932rem;
+    display: inline-block;
+    /*margin-left: 20px;*/
+
+}
+.juli img{
+    /*border:1px solid black;*/
+    display: inline-block;
+    width: 0.452rem;height: 0.452rem;
+    margin: 0.17rem auto 10px 5px;
+}
+.juli span{
+    display: inline-block;
+    /*border:1px solid #313131;*/
+    font-size: 0.32rem;
+    position: absolute;
+    top:0.17rem;
+    left:0.6rem;
+}

@@ -1,0 +1,50 @@
+#container{
+    height: 12.8rem;
+    width: 100%;
+    /*margin-bottom: 30px;*/
+}
+.res_info{
+    margin-top: 12.9rem;
+    height: 5rem;
+    width: 10rem;
+    border:1px solid #fff;
+    position: relative;
+}
+.res_name{
+    /*border:1px solid #000;*/
+    /*margin: 10px;*/
+    margin: 0.85rem 0.533rem 0.425rem;
+    font-size: 0.64rem;
+    color: #313131;
+}
+.res_addr{
+    /*border:1px solid #000;*/
+    margin: 0 0.533rem 0.85rem;
+    font-size: 0.373rem;
+    color: #313131;
+
+}
+.res_addr img{
+    width: 0.373rem;
+    vertical-align: middle;
+}
+.res_addr span{
+    vertical-align: middle;
+}
+
+
+
+
+.btmtip {
+    /*border:1px solid #000;*/
+
+    font-size: 0.373rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 1rem;
+    color: white;
+    position: absolute;
+    top: 1.8rem;
+    right: .5rem;
+}
